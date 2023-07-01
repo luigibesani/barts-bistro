@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+
+@media only screen and (max-width: 767px) {
+  .bb-footer {
+    background: red;
+  }
+}
