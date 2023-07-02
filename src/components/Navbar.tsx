@@ -44,7 +44,6 @@ export const Navbar = () => {
           <li><a>Gallery</a></li>
           <li><a>About Us</a></li>
           <li><a>Contact</a></li>
-          <li><a>Catering</a></li>
         </ul>
       </div>
       <div className="navbar-end">
