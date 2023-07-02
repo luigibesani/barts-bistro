@@ -14,7 +14,7 @@ export default class DoughSection extends Component {
             </div>
             <div className="grid justify-center self-center text-center ">
               Our dough is made from four simple ingredients and fermented over
-              24h, always. It’s how we recreate that dappled look time and time
+              24h, always. It’s how we recreate that airy look time and time
               again.{" "}
             </div>
             <div className="grid justify-center self-center py-5 text-center ">
