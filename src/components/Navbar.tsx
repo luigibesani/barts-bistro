@@ -22,7 +22,7 @@ export const Navbar = () => {
         </svg>
       </div>
       <nav>
-        <div className="flex justify-around">
+        <div className="flex justify-around text-xl">
           <div></div>
           <div className="">
             <a href="#">Home</a>
