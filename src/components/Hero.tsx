@@ -6,7 +6,7 @@ import salad from "../images/salad.jpg"
 export default class Hero extends Component {
   render() {
     return (
-      <div className="max-w-[85rem] mx-auto pb-10 px-4 pt-10 sm:px-6 lg:px-8 bg-white">
+      <div className="max-w-[85rem] mx-auto pb-10 px-4 pt-10 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-2 md:gap-4 xl:gap-10 ">
           <div className="grid justify-center self-start">
             <h1 className="block text-3xl font-bold pb-8 text-green-800 sm:text-4xl lg:text-6xl lg:leading-tight">
