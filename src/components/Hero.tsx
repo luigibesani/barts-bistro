@@ -15,7 +15,7 @@ export default class Hero extends Component {
                 className="my-12 h-0.5 border-t-0 bg-green-800 opacity-50 dark:opacity-50 w-5/6 mx-auto" />
               Feast on our mouthwatering porchetta and chicken cutlet sandwiches, delectable Arancini, and fresh salads. Whether you're dining in or ordering catering for your special event, Bart's Bistro promises a culinary experience that is both satisfying and unforgettable.<br />
             </p>
-            <p className="mt-3 text-lg text-green-800 opacity-70 text-center">
+            <p className="mt-3 text-lg text-green-800 pb-5 opacity-70 text-center">
               <hr
                 className="my-12 h-0.5 border-t-0 bg-green-800 opacity-50 dark:opacity-50 w-4/6 mx-auto" />
               Bart's Bistro, where passion meets quality ingredients.

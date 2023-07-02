@@ -7,7 +7,7 @@ export default class DoughSection extends Component {
         <div className="grid grid-cols-4 bg-stone-200 col-span-7 xs:col-span-7 sm:col-span-7 md:col-span-3">
           <div></div>
           <div className="col-span-2 ">
-            <div className="text-5xl text-green-800 font-semibold grid justify-center self-center pt-10">
+            <div className="text-5xl text-green-800 font-semibold grid justify-center text-center self-center pt-10">
               The dough
               <hr
                 className="my-12 h-0.5 border-t-0 bg-green-800 opacity-50 dark:opacity-50 w-5/6 mx-auto" />
