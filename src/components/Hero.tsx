@@ -6,7 +6,7 @@ export default class Hero extends Component {
       <div className="max-w-[85rem] mx-auto pb-10 px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-2 md:gap-4 xl:gap-10 items-center">
           <div className="grid justify-center self-start">
-            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
+            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight">
               Bart's Bistro
             </h1>
             <p className="mt-3 text-xl text-green-800 text-justify leading-relaxed">
