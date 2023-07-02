@@ -7,9 +7,9 @@ export default class ArtSection extends Component {
         <div className="text-5xl text-green-900 grid justify-center ">
           The art of authentic pizza
         </div>
-        <div className="text-lg px-5">
+        <div className="text-2xl px-5">
           <hr
-            className="my-6 h-0.5 border-t-0 bg-green-800 opacity-50 dark:opacity-50 w-5/6 mx-auto" />
+            className="my-6 h-0.5 border-t-0 bg-green-800 opacity-50 dark:opacity-50 w-5/6 mx-" />
           No two pizzas at Bart's are the same, from their shape to their spots.
           Perfectly imperfect.{" "}
         </div>

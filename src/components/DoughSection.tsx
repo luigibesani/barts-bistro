@@ -12,12 +12,12 @@ export default class DoughSection extends Component {
               <hr
                 className="my-12 h-0.5 border-t-0 bg-green-800 opacity-50 dark:opacity-50 w-5/6 mx-auto" />
             </div>
-            <div className="grid justify-center self-center text-center ">
+            <div className="grid justify-center self-center text-center text-2xl ">
               Our dough is made from four simple ingredients and fermented over
               24h, always. It’s how we recreate that airy look time and time
               again.{" "}
             </div>
-            <div className="grid justify-center self-center py-5 text-center ">
+            <div className="grid justify-center self-center py-5 text-center text-2xl ">
               This labor of love creates a chewy and airy texture; our mark of a
               well-made focaccia. This fermented crust is lighter and healthier
               than your average bread, leaving you satisfied without feeling
