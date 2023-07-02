@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        dosis: ["Dosis", "sans-serif"],
+        share: ["Share", "cursive"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
