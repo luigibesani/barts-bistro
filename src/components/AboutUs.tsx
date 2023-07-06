@@ -3,7 +3,7 @@ import bart from "../images/bart-smile.jpeg";
 import tables from "../images/tables.jpg";
 import tablesPortrait from "../images/tables-p.jpg";
 
-export default class Hero extends Component {
+export default class AboutUs extends Component {
   render() {
     return (
       <div className="max-w-[85rem] mx-auto pb-10 px-4 pt-10 sm:px-6 lg:px-8">

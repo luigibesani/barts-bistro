@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import menu from "../images/bistromenu.png";
 
-export default class Hero extends Component {
+export default class FoodMenu extends Component {
   render() {
     return (
       <div>
