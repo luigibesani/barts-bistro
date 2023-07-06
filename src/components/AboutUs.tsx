@@ -50,26 +50,31 @@ export default class Hero extends Component {
                 />
               </svg>
             </div>
-            <p className="mt-3 text-2xl text-justify leading-relaxed ">
+            <p className="mt-3 text-2xl text-left leading-relaxed ">
               Welcome to Bart's Bistro, where the aroma of authentic Italian
               cuisine fills the air. Founded by Bart Telaro, who has dedicated
               years to his craft, Bart's Bistro stands as a testament to his
               unwavering love for creating exceptional food that brings joy to
-              people's lives. <br /> <br />
+              people's lives. <br />
+            </p>
+            <img
+              className="rounded-tl-full rounded-tr-full object-scale-down z-30 mx-auto md:hidden"
+              src={bart}
+              alt="Image Description"
+              style={{ maxWidth: "90%" }}
+            ></img>{" "}
+            <p className="mt-3 text-2xl text-left leading-relaxed ">
               Nestled in the heart of Laval near Centropolis, our charming
               establishment offers a warm and inviting atmosphere, complemented
-              by friendly service. <br /> <br />
-              What sets Bart's Bistro apart is our commitment to serving
-              mouthwatering dishes quickly, without ever compromising on taste
-              or quality. <br /> <br /> Choose Bart's Bistro for an
-              unforgettable dining experience, where passion and exceptional
-              food come together to create moments that will linger in your
-              memory.
+              by friendly service.
+              <br /> <br /> Choose Bart's Bistro for an unforgettable dining
+              experience, where passion and exceptional food come together to
+              create moments that will linger in your memory.
             </p>
           </div>
           <div className=" grid align-start gap-y-12 z-20">
             <img
-              className="rounded-tl-full rounded-tr-full object-scale-down mx-auto"
+              className="rounded-tl-full rounded-tr-full object-scale-down mx-auto hidden md:block"
               src={bart}
               alt="Image Description"
               style={{ maxWidth: "90%" }}
