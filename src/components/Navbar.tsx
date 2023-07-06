@@ -76,7 +76,7 @@ export const Navbar = () => {
             <a>Catering</a>
           </li>
           <li>
-            <a>Gallerry</a>
+            <a>Gallery</a>
           </li>
           <li>
             <a>About Us</a>
