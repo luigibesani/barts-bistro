@@ -72,7 +72,7 @@ export default class Hero extends Component {
               className="rounded-tl-full rounded-tr-full object-scale-down mx-auto"
               src={bart}
               alt="Image Description"
-              style={{ maxWidth: "80%" }}
+              style={{ maxWidth: "90%" }}
             ></img>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default class Hero extends Component {
             className=" object-scale-down mx-auto rounded-lg md:hidden"
             src={tablesPortrait}
             alt="Image Description"
-            style={{ maxWidth: "75%" }}
+            style={{ maxWidth: "100%" }}
           ></img>
         </div>
       </div>
