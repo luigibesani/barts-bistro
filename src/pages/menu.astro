@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { Navbar } from "../components/Navbar";
-import AboutUs from "../components/AboutUs";
+import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import ArtSection from "../components/ArtSection";
 ---
@@ -10,7 +10,7 @@ import ArtSection from "../components/ArtSection";
   <Layout title="Bart's Bistro">
     <main class="font-share">
       <Navbar client:load />
-      <AboutUs client:load />
+      <Menu client:load />
       <ArtSection client:load />
       <Footer />
     </main>

@@ -27,7 +27,7 @@ export const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a>Menu</a>
+              <a href="/menu/">Menu</a>
             </li>
             <li>
               <a>Catering</a>
@@ -68,7 +68,7 @@ export const Navbar = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a>Menu</a>
+            <a href="/menu/">Menu</a>
           </li>
           <li>
             <a>Catering</a>
