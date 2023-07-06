@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-contour {
+  background-image: url("../images/contour-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
