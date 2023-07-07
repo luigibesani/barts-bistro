@@ -1,16 +1,14 @@
 import React, { Component } from "react";
-import bart from "../images/bart-smile.jpeg";
-import tables from "../images/tables.jpg";
-import tablesPortrait from "../images/tables-p.jpg";
+import catering from "../images/catering.jpg";
 
-export default class AboutUs extends Component {
+export default class Catering extends Component {
   render() {
     return (
       <div className="max-w-[85rem] mx-auto pb-10 px-4 pt-10 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-2 md:gap-4 xl:gap-10 ">
           <div className="grid justify-center self-start">
             <h1 className="block text-3xl font-bold pb-8 text-green-800 sm:text-4xl lg:text-6xl lg:leading-tight">
-              About us
+              Catering Service
             </h1>
             <div className="md:hidden">
               <svg
@@ -51,49 +49,26 @@ export default class AboutUs extends Component {
               </svg>
             </div>
             <p className="mt-3 text-2xl text-left leading-relaxed ">
-              Welcome to Bart's Bistro, where the aroma of authentic Italian
-              cuisine fills the air. Founded by Bart Telaro, who has dedicated
-              years to his craft, Bart's Bistro stands as a testament to his
-              unwavering love for creating exceptional food that brings joy to
-              people's lives. <br />
+              At Bart's Bistro, we extend our culinary expertise beyond the walls of our charming bistro to offer an exceptional catering service that brings the flavors of Italy to your special events. Whether you're hosting a corporate gathering, a wedding celebration, or an intimate dinner party, our catering service is designed to elevate your event with delectable dishes and impeccable service. <br />
             </p>
             <img
-              className="rounded-tl-full rounded-tr-full object-scale-down z-30 mx-auto md:hidden"
-              src={bart}
+              className="rounded-full object-scale-down z-30 mx-auto md:hidden"
+              src={catering}
               alt="Image Description"
               style={{ maxWidth: "90%" }}
             ></img>{" "}
             <p className="mt-3 text-2xl text-left leading-relaxed ">
-              Nestled in the heart of Laval near Centropolis, our charming
-              establishment offers a warm and inviting atmosphere, complemented
-              by friendly service.
-              <br /> <br /> Choose Bart's Bistro for an unforgettable dining
-              experience, where passion and exceptional food come together to
-              create moments that will linger in your memory.
+              Our experienced team understands the importance of creating a memorable experience for you and your guests. We work closely with you to tailor the menu to your preferences, ensuring that every bite reflects the authentic flavors and quality that Bart's Bistro is known for.
             </p>
           </div>
-          <div className=" grid align-start gap-y-12 z-20">
+          <div className=" grid align-center gap-y-12 z-20">
             <img
-              className="rounded-tl-full rounded-tr-full object-scale-down mx-auto hidden md:block"
-              src={bart}
+              className="rounded-lg translate-y-1/3 object-scale-down mx-auto hidden md:block"
+              src={catering}
               alt="Image Description"
               style={{ maxWidth: "90%" }}
             ></img>
           </div>
-        </div>
-        <div className="relative py-20 z-20">
-          <img
-            className=" object-scale-down mx-auto rounded-lg hidden md:block"
-            src={tables}
-            alt="Image Description"
-            style={{ maxWidth: "100%" }}
-          ></img>
-          <img
-            className=" object-scale-down mx-auto rounded-lg md:hidden"
-            src={tablesPortrait}
-            alt="Image Description"
-            style={{ maxWidth: "100%" }}
-          ></img>
         </div>
       </div>
     );

@@ -30,10 +30,7 @@ export const Navbar = () => {
               <a href="/menu/">Menu</a>
             </li>
             <li>
-              <a>Catering</a>
-            </li>
-            <li>
-              <a>Gallery</a>
+              <a href="/catering/">Catering</a>
             </li>
             <li>
               <a href="/about/">About Us</a>
@@ -71,10 +68,7 @@ export const Navbar = () => {
             <a href="/menu/">Menu</a>
           </li>
           <li>
-            <a>Catering</a>
-          </li>
-          <li>
-            <a>Gallery</a>
+            <a href="/catering/">Catering</a>
           </li>
           <li>
             <a href="/about/">About Us</a>

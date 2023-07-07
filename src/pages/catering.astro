@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Navbar } from "../components/Navbar";
+import Catering from "../components/Catering";
+import Footer from "../components/Footer";
+import ArtSection from "../components/ArtSection";
+---
+
+<div class="bg-contour">
+  <Layout title="Bart's Bistro">
+    <main class="font-share">
+      <Navbar client:load />
+      <Catering client:load />
+      <ArtSection client:load />
+      <Footer />
+    </main>
+  </Layout>
+</div>
