@@ -63,6 +63,12 @@ export default class ContactUs extends Component {
               450-xxx-xxxx
             </p>
             <h1 className="mt-3 text-4xl text-green-800 pt-7">
+              Instagram
+            </h1>
+            <p className="text-2xl">
+              @barts.bistro
+            </p>
+            <h1 className="mt-3 text-4xl text-green-800 pt-7">
               Opening hours
             </h1>
             <p className="text-2xl">
