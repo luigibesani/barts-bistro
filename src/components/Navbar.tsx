@@ -39,7 +39,7 @@ export const Navbar = () => {
               <a href="/about/">About Us</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="/contact/">Contact</a>
             </li>
           </ul>
         </div>
@@ -80,7 +80,7 @@ export const Navbar = () => {
             <a href="/about/">About Us</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="/contact/">Contact</a>
           </li>
         </ul>
       </div>
